@@ -9,6 +9,6 @@ import { TaskRepository } from './task.repository';
     TypeOrmModule.forFeature([TaskRepository]),
   ],
   controllers: [TasksController],
-  providers: [TasksService],
+  providers: [TasksService , TaskRepository],
 })
 export class TasksModule {}
