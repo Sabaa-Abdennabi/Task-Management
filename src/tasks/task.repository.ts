@@ -1,4 +1,4 @@
-import { DataSource,  Repository } from 'typeorm';
+import { DataSource, Repository, EntityRepository } from 'typeorm';
 import { Task } from './task.entity';
 import { Inject, Injectable } from '@nestjs/common';
 import { CreateTaskDto } from './dto/create-task-dto';
